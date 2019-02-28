@@ -3,8 +3,6 @@ import { Route } from 'react-router-dom'
 import Catalog from './components/Catalog'
 import { Container } from 'react-bootstrap'
 
-import './App.css'
-
 class App extends React.Component {
   getCatalog = ({ location }) => {
     return (
