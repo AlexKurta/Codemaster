@@ -48,7 +48,7 @@ class Catalog extends React.Component {
       }
     } else return null
 
-    return <div className="test__catalog--container">{catalogItems}</div>
+    return <div className="test__catalog--container row">{catalogItems}</div>
   }
 }
 
